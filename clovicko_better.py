@@ -16,6 +16,8 @@ def throw_dice(roll_bias: float):
     :param roll_bias: pravdepodobnost hodu cisla ¨6¨
     :return: vrati nahodny int 1-6
     """
+
+    roll_tuple = (1,2,3,4,5,6)
     rest_chance = ((1 - roll_bias) / 5)
     roll = choices(roll_tuple, weights=(rest_chance, rest_chance, rest_chance, rest_chance, rest_chance, roll_bias), k=1)[0]
     return roll
