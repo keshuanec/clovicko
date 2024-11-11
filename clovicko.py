@@ -125,6 +125,6 @@ def print_optimal_biases():             #nejlepší bias pro plány o velikosti 
 #find_optimal_bias(40, 100)
 #print_average_lengths(2, 100)
 #print(analyze_game(42, 100, 0))
-#print(play_game(500, 1, True))
+print(play_game(100, 1/6, True))
 print("tohle je pokusnej vklad, tak snad to bude fachat")
 print("toto je druha zmena provedena na velkem pocitaci")
